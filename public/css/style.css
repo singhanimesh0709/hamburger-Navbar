@@ -19,6 +19,7 @@ body {
     font-family: 'Lato', sans-serif;
     background: var(--dark);
     color: var(--pure);
+    
 }
 
 .container {
@@ -221,4 +222,30 @@ nav ul.dropdown-list {
 
 .mobile .nav-wrapper ul.dropdown-list li a {
     color: var(--dark-gray);
+}
+
+
+.searchBar{
+    
+        float: right;
+        padding: 3px;
+        border: none;
+        margin-top: 8px;
+        margin-right: 13px;
+        font-size: 17px;
+        border: 1px solid #ccc;
+        width: 230px;
+        
+}
+
+#searchBtn{
+    float: right;
+    padding: 8px 8px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    
 }
