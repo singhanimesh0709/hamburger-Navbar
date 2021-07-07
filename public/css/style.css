@@ -29,6 +29,7 @@ body {
 }
 
 .nav-wrapper {
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -80,6 +81,7 @@ body {
     letter-spacing: 1px;
     border: 1px solid transparent;
     transition: all .5s ease-in-out;
+    border-radius: 20px;
 }
 
 .btn:hover {
@@ -235,6 +237,7 @@ nav ul.dropdown-list {
         font-size: 17px;
         border: 1px solid #ccc;
         width: 230px;
+        border-radius: 20px;
         
 }
 
@@ -247,5 +250,10 @@ nav ul.dropdown-list {
     font-size: 17px;
     border: none;
     cursor: pointer;
+    border-radius: 20px;
+}
+
+.naV{
+    height:80px;
     
 }
